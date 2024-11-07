@@ -1,0 +1,152 @@
+
+.dashboard-menu ul {
+    padding: 0;
+    margin: 0;
+  }
+  .profile-image {
+    display: flex;
+    align-items: center;
+    padding: 10px !important;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .3);
+}
+
+.profile-image .pro-img {
+    margin-right: 10px;
+}
+
+.profile-image .pro-img img {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.profile-image .profile-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-image .profile-info p,
+.profile-image .profile-info h4 {
+    margin: 0;
+}
+
+  .dashboard-menu {
+    padding: 10px !important;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .3);
+  }
+  .dashboard-menu ul li {
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0, .2);
+  }
+  .dashboard-menu ul li button.active {
+    color: #fff;
+    background-color: #3BB77E;
+    border-radius: 10px;
+    border: 1px solid #3BB77E;
+    width: 100%;
+
+  }
+  .dashboard-menu ul li button {
+    font-size: 16px;
+    color: #7E7E7E;
+    border-radius: 10px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    width: 100%;
+  }
+ .dashboard-menu .nav-item svg {
+    margin-top: -4px;
+    font-size: 21px;
+  }
+
+  .tab-content {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .3);
+  }
+
+  .profile-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .cancel-btn {
+    background: none;
+    color: #007bff;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: underline;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .radio-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .radio-group label {
+    font-weight: normal;
+  }
+  
+  /* input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+   */
+  input[disabled] {
+    background-color: #f0f0f0;
+  }
+  
+  .edit-btn {
+    color: #007bff;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  .save-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  

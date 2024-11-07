@@ -1,0 +1,102 @@
+.page-404 {
+    background-color: #fff;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.page-404 img {
+    max-width: 300px;
+}
+
+.display-2 {
+    font-size: 72px;
+    line-height: 1;
+}
+
+.font-lg {
+    font-size: 17px;
+}
+
+
+.font-lg a {
+    color: #3BB77E;
+}
+
+.font-lg a:hover {
+    color: #ffc107;
+    text-decoration: none;
+    border: none;
+}
+
+.page-404 .search-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.search-form form {
+    position: relative;
+}
+
+.search-form form input {
+    transition: all 0.3s ease 0s;
+     border-radius: 10px;
+}
+
+input {
+    /* border: 1px solid #ececec; */
+    height: 55px;
+    box-shadow: none;
+    padding-left: 20px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.search-form form button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+
+}
+
+.search-form form button svg {
+    font-size: 24px;
+    height: 100%;
+}
+
+.search-form form button:hover {
+    font-weight: 500;
+    padding: 15px 20px;
+    color: #ffffff;
+    border: none;
+    background-color: #3BB77E;
+    border: 1px solid #29A56C;
+    border-radius: 10px;
+}
+
+.page-404 button {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px 20px;
+    color: #ffffff;
+    border: none;
+    background-color: #D10024;
+    border-radius: 10px;
+}
+
+.page-404 .btn-default {
+    color: #fff;
+    background-color: #3BB77E;
+    border-radius: 50px;
+    padding: 13px 28px;
+    font-weight: 600;
+    font-family: "Quicksand", sans-serif;
+}
+
+.page-404 .btn-default:hover {
+    background: #ffc107;
+    color: #fff;
+    border: none;
+    color: black;
+    font-weight: 700;
+}

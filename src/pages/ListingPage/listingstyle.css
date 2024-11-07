@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* this are used css for listing page  */
+.listingPage {
+    width: 100%;
+    height: auto;
+    padding: 45px 0;
+}
+.listingPage .breadcrumb {
+    width: 100%;
+    height: auto;
+    padding: 30px 35px;
+    background: #d8f1e5;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.listingPage .breadcrumb h1{
+    color: black;
+    opacity: 0.8;
+    font-size: 50px;
+    font-weight: bold;
+}
+.listingPage .breadcrumb .home-icon-homes{
+    font-size: 21px;
+}
+.listingPage .breadcrumb li{
+    margin-right: 20px !important;
+    align-items: center;
+    justify-content: center;
+}
+.listingPage .breadcrumb li a{
+    color: #3BB77E;
+    text-decoration: none;
+    font-size: 19px;
+}
+.listingPage .breadcrumb li a:hover{
+    color: #090909;
+    font-size: 19.5px;
+}
+.left-sidebarWrapper {
+    max-width: 19%;
+    flex: 0 0 19%;
+}
+
+.right-siderWrapper {
+    max-width: 81%;
+    flex: 0 0 81%;
+}
+.right-siderWrapper .topStrip {
+    padding: 0 25px;
+}
+.right-siderWrapper .topStrip p {
+    font-size: 17px;
+}
+.right-siderWrapper .topStrip .tab_{
+    width: 200px;
+}
+.right-siderWrapper .topStrip .tab_ .btn_{
+    background: none !important;
+    border: 1px solid rgba(0, 0, 0, 0.1) !important;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.7) !important;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 100%;
+    justify-content: flex-start;
+}
+.right-siderWrapper .topStrip .tab_ .btn_ svg{
+    opacity: 0.5;
+}
+.right-siderWrapper .topStrip .tab_ .dropdownMenu{ 
+    top: 100px !important;
+}

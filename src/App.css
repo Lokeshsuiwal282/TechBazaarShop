@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.margin25px {
+  margin: 25px;
+}
+
+h1, h2, h3, h4, h5, h6, .font-heading, .display-1, .display-2, .heading-sm-1 {
+  font-family: "Quicksand", sans-serif;
+  color: #253D4E;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+a, button, img, input, span, h4 {
+  transition: all 0.3s ease 0s;
+}
+a, button, Button {
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover, button:hover, Button:hover, Link:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+a, Link {
+  color: #3BB77E;
+  text-decoration: none;
+}
+.text-brand {
+  color: #3BB77E !important;
+  font-weight: bold;
+
+}
+.hd {
+  font-family: "Quicksand", sans-serif;
+  color: #253D4E;
+  font-weight: 700;
+  line-height: 1.2;
+  font-weight: bold;
+
+}
+
+
+/*=========================================================
+      13 -> RESPONSIVE
+  ===========================================================*/
+  
+  @media only screen and (max-width: 1201px) {
+
+  }
+  
+  @media only screen and (max-width: 991px) {
+    .homeSlider .home-slider-menu img {
+      height: 15vh;
+   }
+   
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .homeSlider .home-slider-menu img {
+      height: 10vh;
+   }
+  }
+  @media only screen and (max-width: 567px) {
+    
+  }
+  
+  @media only screen and (max-width: 480px) {
+    
+  }
+  
